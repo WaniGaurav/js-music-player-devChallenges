@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: min(100%, 1280px);
+    margin: auto;
+}
+.musicDiv{
+    width: max(1280px);
+    background: url(./components/images/bg.jpg);
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.music-info{
+    padding: 1rem;
+    width: 23rem;
+    height: 38rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #212936;
+    border-radius: 18px;
+}
+
+.song-img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 18px;
+}
+.song-name{
+    margin: 1rem 0 0 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #E5E7EB;
+}
+.singer-name{
+    /* margin: 1rem 0 0 0; */
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #4D5562;
+}
+.music-controls{
+    display: flex;
+    justify-content: space-evenly;
+    width: 12rem;
+}
+.img2{
+    background-color: #C93B76;
+    border-radius: 30px;
+}
+.music-control-btn{
+    width: 3.5rem;
+    height: 3.5rem;
+}
